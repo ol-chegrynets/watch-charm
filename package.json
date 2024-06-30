@@ -1,18 +1,19 @@
 {
-  "name": "vanilla-app-template",
+  "name": "watch-sharm",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "start": "vite",
     "build": "vite build --base=/watch-sharm/",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "push": "git add . && git commit -m 'update' && git push"
   },
   "devDependencies": {
     "vite": "^4.5.2",
     "glob": "^8.1.0"
   },
-  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
+  "author": "Oleksandr <ol.chegrynets@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "vite-plugin-full-reload": "^1.0.5",
